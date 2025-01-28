@@ -1,0 +1,90 @@
+/* ! Resets */
+/* ? 1. Use a more-intuitive box-sizing model 
+   ? 2. Remove default margin
+   ? 3. Remove default Padding*/
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* ? 4. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+   display: block;
+   max-width: 100%;
+}
+
+/* ? 5. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+/* ? 6. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   overflow-wrap: break-word;
+}
+
+/* ? 7. Improve line wrapping */
+p {
+   text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   text-wrap: balance;
+}
+
+/* ? 8.Remove default list styles */
+ol,
+ul {
+   list-style: none;
+}
+
+/* ? 9.Ensure consistent line-height */
+body {
+   line-height: 1.5;
+}
+
+/* ? 10.Remove default border and background */
+fieldset {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+   background: none;
+   border: none;
+}
+
+/* ? 11.Ensure placeholders inherit font properties */
+::placeholder {
+   font: inherit;
+}
+
+/* ? 12.Remove default text decoration and color for links */
+a {
+   text-decoration: none;
+   color: inherit;
+}
